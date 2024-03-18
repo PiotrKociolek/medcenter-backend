@@ -1,13 +1,9 @@
 # medcenter-backend
 
-przy pierwszym uruchomieniu dodajemy dependency w pom.xml
-"
-<dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-docker-compose</artifactId>
-    <version>3.1.1</version>
-</dependency>
-"
+przy pierwszym uruchomieniu dodajemy dependency z linku w pom.xml
+
+https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-docker-compose/3.1.1
+
 zeby powstał kontener dockerowy z baza danych, potem usuwamy z pliku pom.xml bo wywali bład przy odplaniu
 
 kontener mozna odpalac i zarzadzac nim w docker desktop 
